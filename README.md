@@ -32,3 +32,19 @@ The task is to predict the tags associated with a question based on its content.
   - Incorrect tag predictions can negatively impact user experience on Stack Overflow.
   - There are **no strict latency constraints**, meaning that the prediction does not need to be in real-time.
   - Achieving a balance between **precision and recall** is crucial to ensure that relevant tags are suggested without overloading the user with incorrect ones.
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Ensure that you have downloaded the dataset from Kaggle and placed it in the appropriate directory.
+
+## 4. Data Preprocessing
+  - Sample 1M data points.
+  - Separate code-snippets from Body.
+  - Remove Spcial characters from Question title and description (not in code).
+  - Remove stop words (Except 'C').
+  - Remove HTML Tags.
+  - Convert all the characters into small letters.
+  - Use SnowballStemmer to stem the words.
