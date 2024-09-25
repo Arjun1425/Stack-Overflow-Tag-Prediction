@@ -33,12 +33,12 @@ The task is to predict the tags associated with a question based on its content.
   - There are **no strict latency constraints**, meaning that the prediction does not need to be in real-time.
   - Achieving a balance between **precision and recall** is crucial to ensure that relevant tags are suggested without overloading the user with incorrect ones.
 
-2. Install the required dependencies:
+## 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Ensure that you have downloaded the dataset from Kaggle and placed it in the appropriate directory.
+## 3. Ensure that you have downloaded the dataset from Kaggle and placed it in the appropriate directory.
 
 ## 4. Data Preprocessing
   - Sample 1M data points.
