@@ -1,0 +1,13 @@
+pandas
+sqlite3
+matplotlib
+seaborn
+numpy
+wordcloud
+re
+os
+sqlalchemy
+datetime
+nltk
+scikit-learn
+scikit-multilearn
