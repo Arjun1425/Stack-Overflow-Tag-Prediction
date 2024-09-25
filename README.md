@@ -18,14 +18,14 @@ The task is to predict the tags associated with a question based on its content.
 
 - **Source**: [Kaggle Competition](https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction/)
 
-## 1.2 Source / Useful Links
+### 1.2 Source / Useful Links
 
 - **Data Source**: [Kaggle Competition Dataset](https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction/data)
 - **Youtube Video**: [Video on Tag Prediction](https://youtu.be/nNDqbUhtIRg)
 - **Research Paper 1**: [Tagging and Keyword Extraction](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tagging-1.pdf)
 - **Research Paper 2**: [Paper on Tagging Techniques](https://dl.acm.org/citation.cfm?id=2660970&dl=ACM&coll=DL)
 
-## 1.3 Real World / Business Objectives and Constraints
+### 1.3 Real World / Business Objectives and Constraints
 
 - **Objective**: Predict as many relevant tags as possible for a given question with high precision and recall.
 - **Constraints**:
