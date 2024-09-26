@@ -48,3 +48,7 @@ The task is to predict the tags associated with a question based on its content.
   - Remove HTML Tags.
   - Convert all the characters into small letters.
   - Use SnowballStemmer to stem the words.
+
+## 5. Machine Learning Models
+  - Converting tags for multilabel problems.
+      - Taking only a subset of tags around 5k to solve the problem. 
